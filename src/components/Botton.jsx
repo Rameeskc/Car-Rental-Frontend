@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Botton = () => {
+const Botton = (props) => {
   return (
-    <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition duration-300">
-          Get Started
+    <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition duration-300">
+          <h1>{props.name}</h1>
         </button>
   )
 }

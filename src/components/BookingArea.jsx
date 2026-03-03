@@ -91,7 +91,7 @@ const BookingArea = () => {
 
       {/* Button */}
       <div className="mt-4 flex w-full items-center justify-center">
-        <Botton className="mx-auto w-full lg:w-1/2" />
+        <Botton className="mx-auto w-full lg:w-1/2" name="Search Cars"/>
       </div>
     </div>
   );
