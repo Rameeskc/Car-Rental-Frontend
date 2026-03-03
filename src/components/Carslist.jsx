@@ -70,7 +70,7 @@ const Carslist = () => {
               />
 
               {/* Car Info */}
-              <div className="p-4 flex flex-col items-center">
+              <div className=" flex flex-col items-center">
                 <h3 className="text-lg font-semibold">{carItem.name}</h3>
                 <Button onClick={() => navigate("/cars")} name="Book Now"/>
               </div>
