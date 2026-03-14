@@ -54,7 +54,7 @@ const Review = () => {
       >
         {reviews.map((review) => (
           <SwiperSlide key={review.id}>
-            <div className="bg-green-600 rounded-3xl p-10 transition duration-300 flex flex-col min-h-[430px] lg:min-h-[450px]">
+            <div className="bg-green-600 rounded-3xl p-10 transition duration-300 flex flex-col min-h-[43o,0px] lg:min-h-[450px]">
 
               {/* Profile */}
               <div className="flex flex-col items-center gap-4 mb-6">

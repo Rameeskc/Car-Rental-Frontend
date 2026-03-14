@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImage  from "../images/banner-image.jpg"
+import bannerImage from "../images/banner-image.jpg"
 import bannerImageMobile from "../images/banner-image-mobile.jpg"
 import BookingArea from "./BookingArea";
 
@@ -22,9 +22,25 @@ const Banner = () => {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      {/* Booking Area */}
-      <div className="absolute inset-0 flex items-center justify-center lg:justify-start px-4 lg:px-20">
-        <BookingArea />
+      {/* Content Area */}
+      <div className="absolute inset-0 flex items-center justify-between px-6 lg:px-20">
+
+        {/* Left Text Area */}
+        <div className="text-white max-w-xl hidden lg:block">
+          <h1 className="text-4xl font-bold mb-4">
+            Find Your Perfect Ride
+          </h1>
+          <p className="text-lg mb-6">
+            Rent a car easily and travel comfortably. Choose from our wide
+            range of vehicles at the best prices.
+          </p>
+        </div>
+
+        {/* Booking Area */}
+        <div>
+          <BookingArea />
+        </div>
+
       </div>
 
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import NavBar from "../NavBar"
+import BottomArea from '../BottomArea'
 
 const UserLayout = () => {
   return (
@@ -9,6 +10,7 @@ const UserLayout = () => {
       <div className="pt-16">
         <Outlet />
       </div>
+      <BottomArea/>
     </div>
   )
 }
