@@ -3,15 +3,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { useNavigate } from "react-router-dom";
 import Button from "./Botton"
-import car from "../images/car.jpg"
-import car1 from "../images/car1.jpg"
-import car2 from "../images/car2.jpg"
-import car3 from "../images/car3.jpg"
-import car4 from "../images/car4.jpg"
-import car5 from "../images/car5.jpg"
-import car6 from "../images/car6.jpg"
-import car7 from "../images/car7.jpg"
-import car8 from "../images/car8.jpg"
+import car from "../../images/car.jpg"
+import car1 from "../../images/car1.jpg"
+import car2 from "../../images/car2.jpg"
+import car3 from "../../images/car3.jpg"
+import car4 from "../../images/car4.jpg"
+import car5 from "../../images/car5.jpg"
+import car6 from "../../images/car6.jpg"
+import car7 from "../../images/car7.jpg"
+import car8 from "../../images/car8.jpg"
 
 import "swiper/css";
 import "swiper/css/pagination";

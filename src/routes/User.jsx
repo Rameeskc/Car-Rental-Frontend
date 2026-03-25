@@ -11,17 +11,17 @@ import ForgotPassword from "../pages/user/ForgotPassword";
 function User() {
     return (
         <Routes>
-            <Route element={<UserLayout />}>
-                <Route path="/" element={<Home />} />
-                <Route path="/carlist" element={<CarList />} />
-                <Route path="/checkout" element={<Checkout />} />
-                <Route path="/payment" element={<Payment />} />
+  <Route element={<UserLayout />}>
+    <Route path="/" element={<Home />} />
+    <Route path="carlist" element={<CarList />} />
+    <Route path="checkout" element={<Checkout />} />
+    <Route path="payment" element={<Payment />} />
+  </Route>
 
-            </Route>
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/forgot" element={<ForgotPassword />} />
-        </Routes>
+  <Route path="/login" element={<Login />} />
+  <Route path="/signup" element={<Signup />} />
+  <Route path="/forgot" element={<ForgotPassword />} />
+</Routes>
     )
 }
 

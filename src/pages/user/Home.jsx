@@ -1,10 +1,10 @@
 import React from 'react'
-import Banner from '../../components/Banner'
-import BookingArea from '../../components/BookingArea'
-import Heading from '../../components/Heading'
-import Carslist from '../../components/Carslist'
-import Process from '../../components/Process'
-import Review from '../../components/Review'
+import Banner from '../../components/user/Banner'
+import BookingArea from '../../components/user/BookingArea'
+import Heading from '../../components/user/Heading'
+import Carslist from '../../components/user/Carslist'
+import Process from '../../components/user/Process'
+import Review from '../../components/user/Review'
 
 const Home = () => {
   return (

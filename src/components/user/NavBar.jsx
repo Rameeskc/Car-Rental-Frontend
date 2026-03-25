@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../images/a.png"
+import logo from "../../images/a.png"
 import { IoMdClose } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { useState } from 'react';

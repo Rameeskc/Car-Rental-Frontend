@@ -1,6 +1,6 @@
 import React from 'react'
-import bannerImage from "../images/banner-image.jpg"
-import bannerImageMobile from "../images/banner-image-mobile.jpg"
+import bannerImage from "../../images/banner-image.jpg"
+import bannerImageMobile from "../../images/banner-image-mobile.jpg"
 import BookingArea from "./BookingArea";
 
 const Banner = () => {

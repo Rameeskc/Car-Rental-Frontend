@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import NavBar from "../NavBar"
-import BottomArea from '../BottomArea'
+import NavBar from "../user/NavBar"
+import BottomArea from '../user/BottomArea'
 
 const UserLayout = () => {
   return (
